@@ -1,0 +1,72 @@
+/*Tabla de horario de atención*/
+
+.tabla-horarios {
+    background-color: rgb(111, 135, 155);
+}
+
+.dia1-semana { 
+    font-weight: bold;
+    color: brown;
+    font-size: 25px;
+}
+.dia2-semana { 
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 25px;
+}
+.dia3-semana { 
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+}
+.dia4-semana { 
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 25px;
+}
+.dia5-semana { 
+    font-weight: bold;
+    color: aqua;
+    font-size: 25px;
+}
+.dia6-semana { 
+    font-weight: bold;
+color: rgb(177, 177, 36);
+font-size: 25px;
+}
+.dia7-semana { 
+    font-weight: bold;
+    color: rgb(46, 10, 10);
+    font-size: 25px;
+}
+
+
+
+.horario1 {
+    font-style: oblique;
+    color: brown;
+}
+.horario2{
+    font-style: oblique;
+    color: blueviolet;
+}
+.horario3 {
+    font-style: oblique;
+    color: blue;
+}
+.horario4 {
+    font-style: oblique;
+    color: aquamarine;
+}
+.horario5 {
+    font-style: oblique;
+    color: aqua;
+}
+.horario6 {
+    font-style: oblique;
+    color: rgb(177, 177, 36) ;
+}
+.horario7 {
+    font-style: oblique;
+    color: rgb(46, 10, 10);
+}
