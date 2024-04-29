@@ -1,40 +1,118 @@
+* {
+    margin: 0;
+}
+
+/*header*/
+.lista {
+    list-style: none;
+}
+
+.header {
+
+    background-color: aquamarine;
+    background-position: left top;
+    width: 100%;
+}
+
+/*formulario*/
+.formulario {
+margin: 20px;
+padding: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+}
+
+/*body*/
+body {
+    background-color: blanchedalmond;
+}
+
+
+
+/*seccion index 1*/
+
+.section-index1 {
+    padding: 20px;
+    text-align: center;
+}
+
+/*seccion index 2*/
+.titulo-secction2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/*Div trekking recomendados en index*/
+
+.trekkingrecomendados {
+    display: flex;
+
+text-align: center;
+
+}
+
+.imagen-lanin {
+    margin: 10px 10px 10px 370px ;
+}
+.p-lanin {
+    margin-left: 370px;
+}
+.imagen-tromen {
+    margin: 10px;
+}
+.imagen-domuyo {
+    margin: 10px;
+}
+
+/*h1 horario atencion*/
+.h1-horarioatncion {
+    margin: 10px;
+}
 /*Tabla de horario de atención*/
 
 .tabla-horarios {
     background-color: rgb(111, 135, 155);
+    margin: 50px;
 }
 
-.dia1-semana { 
+.dia1-semana {
     font-weight: bold;
     color: brown;
     font-size: 25px;
 }
-.dia2-semana { 
+
+.dia2-semana {
     font-weight: bold;
     color: blueviolet;
     font-size: 25px;
 }
-.dia3-semana { 
+
+.dia3-semana {
     font-weight: bold;
     color: blue;
     font-size: 25px;
 }
-.dia4-semana { 
+
+.dia4-semana {
     font-weight: bold;
     color: aquamarine;
     font-size: 25px;
 }
-.dia5-semana { 
+
+.dia5-semana {
     font-weight: bold;
     color: aqua;
     font-size: 25px;
 }
-.dia6-semana { 
+
+.dia6-semana {
     font-weight: bold;
-color: rgb(177, 177, 36);
-font-size: 25px;
+    color: rgb(177, 177, 36);
+    font-size: 25px;
 }
-.dia7-semana { 
+
+.dia7-semana {
     font-weight: bold;
     color: rgb(46, 10, 10);
     font-size: 25px;
@@ -46,27 +124,40 @@ font-size: 25px;
     font-style: oblique;
     color: brown;
 }
-.horario2{
+
+.horario2 {
     font-style: oblique;
     color: blueviolet;
 }
+
 .horario3 {
     font-style: oblique;
     color: blue;
 }
+
 .horario4 {
     font-style: oblique;
     color: aquamarine;
 }
+
 .horario5 {
     font-style: oblique;
     color: aqua;
 }
+
 .horario6 {
     font-style: oblique;
-    color: rgb(177, 177, 36) ;
+    color: rgb(177, 177, 36);
 }
+
 .horario7 {
     font-style: oblique;
     color: rgb(46, 10, 10);
+}
+
+/*footer*/
+
+.footer {
+    background-color: aquamarine;
+
 }
