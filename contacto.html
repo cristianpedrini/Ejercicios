@@ -1,128 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Patagonia Extremo Trekking</title>
+    <link rel="stylesheet" href="mystylo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
 
         <h1>
-            <img src="logo montaña.svg" width="200" alt="logo montaña">
+            <img src="./gf.webp" width="100" alt="logo montaña">
             Patagonia Extremo
         </h1>
 
-        <nav>
-            <ul class="lista">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./Dificultad de senderos.html">Dificultad de senderos</a></li>
-                <li><a href="./contacto.html">contacto</a> </li>
-                <li><a href="./Horarios de atención.html">Horario de atención</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Alquilerequipo.html">Alquiler de
+                                Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Dificultadsendero.html">Dificultad de Senderos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Senderos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Volcan Lanin.html">Volcán Lanin</a></li>
+                                <li><a class="dropdown-item" href="./Volcan Tromen.html">Volcán Tromen</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./Volcan Domuyo.html">Volcán Domuyo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Integrantes.html" >Integrantes</a>
+                          </li>
+                    </ul>
+
+                </div>
+            </div>
         </nav>
     </header>
-
     <center>
-        <u>
-            <h1>FORMAS DE CONTACTARNOS</h1>
-        </u>
-        <form action="" method="get" class="formulario">
-            <div>
-                <label for="CAMPO-NOMBRE">NOMBRE:</label>
-                <input type="text" id="CAMPO-NOMBRE" name="CAMPO-NOMBRE">
-            </div>
-            <div>
-                <label for="CAMPO-APELLIDO">APELLIDO:</label>
-                <input type="text" id="CAMPO-APELLIDO" name="CAMPO-APELLIDO">
-            </div>
-            <br>
-            ¿QUE TREKKING QUIERES HACER?
-            <input type="checkbox" name="Volcán-Lanin">Volcán Lanin
-            <input type="checkbox" name="Volcán-Tromen">Volcán Tromen
-            <input type="checkbox" name="Volcán-Domuyo">Volcán Domuyo
-            <input type="checkbox" name="Cerro-del-Plata">Cerro del Plata
-            <input type="checkbox" name="Aconcagua">Aconcagua
+        <main class="maincontacto">
 
-            <br><br>
-
-
-
-            ¿COMO PREFIERES QUE TE CONTACTEMOS?
-            <input type="radio" name="CAMPO-WHATSAPP">Whatsapp
-            <input type="radio" name="CAMPO-EMAIL">Email
-            <div>
-                <label for="Numero-whatsapp">Número de Whatsapp</label>
-                <input type="number" name="Numero-whatsapp" id="Numero-whatsapp">
-
-
-                <label for="Campo-Email">Email</label>
-                <input type="email" name="Campo-Email" id="Campo-Email">
-
-            </div>
-
-            <div>
-                <br>
-                DEJAR UN COMENTARIO:
-                <br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <div> <input type="submit"> </div>
-            </div>
-        </form>
-        <br>
-        <img src="./contacto telefono.png" alt="contacto telefono">
-        <h3>Telefono</h3>
-        <h4>(336) 154596451</h4>
-        <br>
-        <img src="./contacto ubicacion.png" alt="Dirección">
-        <h3>Dirección</h3>
-        <h4>Moreno 792</h4>
-        <br>
-        <img src="./contacto email.png" alt="email">
-        <h3>Email</h3>
-        <h4>patagoniaextremo@gmail.com.ar</h4>
-
-    </center>
-    <br>
-    <footer class="footer">
-
-        <div class="div1footer">
-            <div > <a href="https://www.instagram.com/"><img src="./instagram.jpg"  width="23px" alt="logo-instagram"></a>
+           
+            <form action="" method="get" class="formulario">
                 
-            </div>
+                    <h2>FORMA DE CONTACTARNOS</h2>
+                    <br>
+               
+                <div>
+                    <label for="CAMPO-NOMBRE">NOMBRE:</label>
+                    <input type="text" id="CAMPO-NOMBRE" name="CAMPO-NOMBRE">
+                </div>
+                <br>
+                <div>
+                    <label for="CAMPO-APELLIDO">APELLIDO:</label>
+                    <input type="text" id="CAMPO-APELLIDO" name="CAMPO-APELLIDO">
+                </div>
+                <br>
+                ¿QUE TREKKING QUIERES HACER?
+                <br>
+                <input type="checkbox" name="Volcán-Lanin">Volcán Lanin
+                <input type="checkbox" name="Volcán-Tromen">Volcán Tromen
+                <input type="checkbox" name="Volcán-Domuyo">Volcán Domuyo
+                <input type="checkbox" name="Cerro-del-Plata">Cerro del Plata
+                <input type="checkbox" name="Aconcagua">Aconcagua
 
-            <div>
-                <a href="https://www.facebook.com/"><img src="./facebook.jpg" width="23px" alt="logo-facebook"></a>
+                <br><br>
+
+
+
+                ¿COMO PREFIERES QUE TE CONTACTEMOS?
+           
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Whatsapp</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Email</label>
+                  </div>
+                 
+
+                <div>
+                    <label for="Numero-whatsapp">Número de Whatsapp</label>
+                    <input type="number" name="Numero-whatsapp" id="Numero-whatsapp">
+
+
+                    <label for="Campo-Email">Email</label>
+                    <input type="email" name="Campo-Email" id="Campo-Email">
+
+                </div>
+
+                <div>
+                    <br>
+                    CONSULTAS:
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div> <input type="submit"> </div>
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+
+            <div class="div1footer">
+                <div > <a href="https://www.instagram.com/"><img src="./instagram.jpg"  width="23px" alt="logo-instagram"></a>
+                    
+                </div>
+    
+                <div>
+                    <a href="https://www.facebook.com/"><img src="./facebook.jpg" width="23px" alt="logo-facebook"></a>
+                    
+                </div>
+    
+                <div >
+                    <h5>
+                         <img src="./whatsapplogo.png" width="23px" alt="logo-whatsapp">
+                    +543364 257371 
+                </h5>
                 
+                </div>
             </div>
-
-            <div >
-                <h4>
-                     <img src="./whatsapplogo.png" width="23px" alt="logo-whatsapp">
-                +543364 257371
-            </h4>
+    
+            <div class="resolucion-PN">
+               
+                <img src="./logos-parques-chico.png" width="80" alt="logo parques nacionales">
+                <H6>PRESTADOR DE SERVICIOS HABILITADOS</H6>
+                
+                
+           
             </div>
-        </div>
+           
+            <div><p class="derecho">© Patagonia Extremo 2004</p></div>
+        </footer>
 
-        <div class="resolucion-PN">
-            <center>
-            <h5>PRESTADOR DE SERVICIOS HABILITADOS</h5>
-            <H6>PRESTADOR DE SERVICIOS HABILITADOS</H6>
-            <img src="./logos-parques-chico.png" width="100" alt="logo parques nacionales">
-            <i>
+       
 
-                <p>Habilitado por Parques Nacionales</p>
-                <p>Prestador de servicios exclusivos trekking</p>
-                <p>Habilitación Año 2024</p>
-                <p> Disp. 41/10 - Exp. 605/2007</p>
-            </i>
-        </center>
-        </div>
-    </footer>
 
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+ 
+           
 </body>
 
 </html>
